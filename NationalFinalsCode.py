@@ -98,7 +98,7 @@ while True:
 
     if Light() < x:
         print "Lights: ON"
-        GPIO.output(17, GPIO.HIGH) #LE
+        GPIO.output(17, GPIO.HIGH) 
         GPIO.output(8, GPIO.LOW)
         GPIO.output(25, GPIO.LOW)
         display.lcd_clear()
